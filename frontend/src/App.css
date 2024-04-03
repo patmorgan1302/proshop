@@ -1,0 +1,15 @@
+#main-css {
+    animation: pulse 15s infinite;
+
+
+}
+
+
+  @keyframes pulse {
+    0%, 100% {
+      background-color: blue;
+    }
+    50% {
+      background-color: rgb(25, 222, 25);
+    }
+  }
