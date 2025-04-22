@@ -1,12 +1,4 @@
 .footer {
-    animation: pulse 28s infinite;
+    background-color: rgb(159, 159, 159);
   }
   
-  @keyframes pulse {
-    0%, 100% {
-      background-color: #3ff582;
-    }
-    50% {
-      background-color: #bc08df;
-    }
-  }

@@ -9,8 +9,6 @@ import { FaTimes } from 'react-icons/fa';
 import { useProfileMutation } from '../slices/usersApiSlice';
 import { setCredentials } from '../slices/authSlice';
 import { useGetMyOrdersQuery } from '../slices/ordersApiSlice'; 
-import { Link } from 'react-router-dom';
-
 
 const ProfileScreen = () => {
 

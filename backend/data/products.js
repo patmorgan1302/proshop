@@ -1,12 +1,12 @@
 const products = [
     {
-      name: 'Airpods Wireless Bluetooth Headphones',
-      image: '/images/airpods.jpg',
+      name: 'Park Burger',
+      image: '/images/phone.jpg',
       description:
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
-      brand: 'Apple',
-      category: 'Electronics',
-      price: 89.99,
+        'A Delicous Burger, consimated by the unionization of Salt Lake and Liberty Park',
+      brand: 'Liberty Park',
+      category: 'Entrees',
+      price: 5,
       countInStock: 10,
       rating: 4.5,
       numReviews: 12,

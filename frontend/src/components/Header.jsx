@@ -5,6 +5,8 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { useSelector, useDispatch } from 'react-redux';
 import { useLogoutMutation } from '../slices/usersApiSlice';
 import { logout } from '../slices/authSlice';
+import logo from '../assets/libertypark.jpeg'
+
 import './Header.css';
 
 
@@ -29,12 +31,11 @@ const Header = () => {
 
     return (
          <header>
-            <Navbar className="navbar" expand="lg" collapseOnSelect>
+            <Navbar className="navbar" expand="md" bg='dark' variant='dark' collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
-                        <Navbar.Brand className="navbar-brand">
-                       
-                        youngladco.
+                        <Navbar.Brand>
+                            <img src={logo} className="header-img" alt="Sweet_Cream and Gasoline" />
                         </Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
